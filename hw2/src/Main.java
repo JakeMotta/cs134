@@ -59,11 +59,11 @@ public class Main {
             }
 
             if (window.kbState[KeyEvent.VK_UP]) {   
-	        		//hero.keyDown("up");      		
+	        		hero.keyDown("up");      		
 	        }
 	
 	        if (window.kbState[KeyEvent.VK_DOWN]) {
-	        		//hero.keyDown("down");
+	        		hero.keyDown("down");
 	        }
 	        
 	
@@ -73,6 +73,10 @@ public class Main {
 	        
 	        if (window.kbState[KeyEvent.VK_RIGHT]) {
 	        		hero.keyDown("right");
+	        }
+	        
+	        if (window.kbState[KeyEvent.VK_Z]) {
+        		hero.keyDown("z");
 	        }
 	         
             window.gl.glClearColor(0, 0, 0, 1);
