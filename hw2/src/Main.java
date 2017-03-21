@@ -25,8 +25,8 @@ public class Main {
     	
     	Window window = new Window();
     	GL2 gl = window.getGL();
-			//testing 123
-        // The game loop
+
+    	// The game loop
         long lastFrameNS;
         long curFrameNS = System.nanoTime();
 

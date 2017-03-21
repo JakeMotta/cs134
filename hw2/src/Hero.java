@@ -17,8 +17,6 @@ public class Hero extends Sprite implements Character {
     long speed = 1;
     
     
-    //This is a test update!
-    
     // Strings
 	String direction = "right";
 	String lastDirection = "right";
